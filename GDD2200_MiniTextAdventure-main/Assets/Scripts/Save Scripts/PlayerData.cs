@@ -4,9 +4,9 @@ using UnityEngine;
 [System.Serializable]
 public class PlayerData : MonoBehaviour
 {
-    public HashSet<string> Flags;
+    public List<string> PlayerFlags;
 
-    public string CurrentNodeId;
+    public string PlayerCurrentNodeId;
 
 
 }
