@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class DialogeChoice : MonoBehaviour
+public class DialogueChoice 
 {
     [Header("UI")]
     public string ChoiceText;// The choices available. 

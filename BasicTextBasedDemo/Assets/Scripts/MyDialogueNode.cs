@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 
 [CreateAssetMenu(menuName = "Dialogue/Dialoge Node")]
-public class MyDialogeNode : ScriptableObject
+public class MyDialogueNode : ScriptableObject
 {
     [Header("Identity")]
     public string nodeID; //a unique identification for the node
@@ -16,5 +16,5 @@ public class MyDialogeNode : ScriptableObject
     public string DialogueText; //The dialoge to be displayed
 
     [Header("Dialoge Choices")]
-    public List<DialogeChoice> Choices = new();
+    public List<DialogueChoice> Choices = new();
 }
