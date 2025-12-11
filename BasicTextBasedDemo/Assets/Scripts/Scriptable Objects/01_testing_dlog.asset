@@ -24,6 +24,12 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlag: []
   - ChoiceText: '"No"'
+    NextNodeID: 03_testing_Restart
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlag: []
+  - ChoiceText: '"I want to restart"'
     NextNodeID: 02_testing_01_Nope
     ReloadScene: 0
     RequiredFlags: []
