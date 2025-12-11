@@ -12,8 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae3479bcda4a9843b088171a96e00f3, type: 3}
   m_Name: 02_testing_01_Nope
   m_EditorClassIdentifier: Assembly-CSharp::MyDialogeNode
-  nodeID: 
-  LocationName: 
-  SpeakerName: 
-  DialogueText: 
-  Choices: []
+  nodeID: 02_Testing_01_Nope
+  LocationName: '01: Room 1'
+  SpeakerName: Nate
+  DialogueText: '"Oh Okay"'
+  Choices:
+  - ChoiceText: '[Kill Self]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlag:
+    - Dead

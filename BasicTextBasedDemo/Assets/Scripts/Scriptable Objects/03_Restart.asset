@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae3479bcda4a9843b088171a96e00f3, type: 3}
   m_Name: 03_Restart
   m_EditorClassIdentifier: Assembly-CSharp::MyDialogeNode
-  nodeID: 03
-  LocationName: 
-  SpeakerName: 
-  DialogueText: 
-  Choices: []
+  nodeID: 03_testing_Restart
+  LocationName: Mind Space
+  SpeakerName: Yourself
+  DialogueText: '"Wanna try again?"'
+  Choices:
+  - ChoiceText: '[Restart]'
+    NextNodeID: 01_testing
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlag: []

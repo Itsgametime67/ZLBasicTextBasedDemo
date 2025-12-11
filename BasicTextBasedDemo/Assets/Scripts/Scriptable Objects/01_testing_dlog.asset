@@ -12,8 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae3479bcda4a9843b088171a96e00f3, type: 3}
   m_Name: 01_testing_dlog
   m_EditorClassIdentifier: Assembly-CSharp::MyDialogeNode
-  nodeID: 
-  LocationName: 
-  SpeakerName: 
-  DialogueText: 
-  Choices: []
+  nodeID: 01_testing
+  LocationName: '01: Room 1'
+  SpeakerName: Nate
+  DialogueText: '"Oh Hello would you say 1?"'
+  Choices:
+  - ChoiceText: '"1"'
+    NextNodeID: 02_testing_02_rich
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlag: []
+  - ChoiceText: '"No"'
+    NextNodeID: 02_Testing_01_Nope
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlag: []

@@ -12,8 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae3479bcda4a9843b088171a96e00f3, type: 3}
   m_Name: 02_testing_02_yes
   m_EditorClassIdentifier: Assembly-CSharp::MyDialogeNode
-  nodeID: 
-  LocationName: 
-  SpeakerName: 
-  DialogueText: 
-  Choices: []
+  nodeID: 02_testing_02_rich
+  LocationName: '01: Room 1'
+  SpeakerName: Nate
+  DialogueText: '"Oh thank you kindly, have a thousand gold pieces".'
+  Choices:
+  - ChoiceText: '["Yippie"]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlag:
+    - Rich
