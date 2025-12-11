@@ -10,15 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: testing_04_restart
+  m_Name: testing_06_wandering
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: testing_04_restart
-  LocationName: Mind
-  SpeakerName: Yourself
-  DialogueText: '"Want to go again?"'
+  NodeId: testing_06_wandering
+  LocationName: Old Road
+  SpeakerName: Narrator
+  DialogueText: '"You see an old shop on the side of the road. What do you do?"'
   Choices:
-  - ChoiceText: '[RESTART]'
-    NextNodeId: testing_01_start
+  - ChoiceText: '[Continue down the road]'
+    NextNodeId: testing_04_restart
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Head inside the shop]'
+    NextNodeId: testing_05_merchant
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

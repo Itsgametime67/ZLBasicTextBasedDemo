@@ -3,9 +3,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public DialogueManager DM;
     public List<string> Flags = new();
     public string CurrentNodeId;
 
+    
     public PlayerData ToData()
     {
         return new PlayerData
@@ -19,5 +21,6 @@ public class Player : MonoBehaviour
     {
         Flags = data.PlayerFlags;
         CurrentNodeId = data.PlayerCurrentNodeId;
+        DM.GoToNode(CurrentNodeId);
     }
 }

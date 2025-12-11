@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 public class FlagManager : MonoBehaviour
 {
-    private HashSet<string> _flags = new();
+    public Player player;
+    [SerializeField] private HashSet<string> _flags = new();
 
     public bool HasFlag(string flag)
     {
@@ -14,5 +15,6 @@ public class FlagManager : MonoBehaviour
     {
         if (string.IsNullOrEmpty(flag)) return;
         _flags.Add(flag);
+        player.Flags.Add(flag);
     }
 }

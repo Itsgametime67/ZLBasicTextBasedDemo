@@ -7,7 +7,9 @@ public class DialogueManager : MonoBehaviour
     [Header("Data")] 
     public DialogueDatabase Database;
     public FlagManager FlagManager;
-    public string StartNodeId;
+    
+
+    public Player player;
 
     public delegate void DialogueUpdated(string speakerName, string locationName, string dialogueText, List<DialogueChoice> choices);
     public event DialogueUpdated OnDialogueUpdated;
@@ -15,8 +17,8 @@ public class DialogueManager : MonoBehaviour
     private DialogueNode _currentDialogueNode;
 
     private void Start()
-    {
-        GoToNode(StartNodeId);
+    {               
+            GoToNode(player.CurrentNodeId);
     }
 
     private void ReloadScene()
@@ -70,7 +72,8 @@ public class DialogueManager : MonoBehaviour
             ReloadScene();
             return;
         }
-
+        
+        player.CurrentNodeId = choice.NextNodeId;
         GoToNode(choice.NextNodeId);
     }
 

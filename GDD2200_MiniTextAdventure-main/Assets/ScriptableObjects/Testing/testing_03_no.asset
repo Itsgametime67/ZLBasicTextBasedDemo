@@ -12,8 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
   m_Name: testing_03_no
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 
-  LocationName: 
-  SpeakerName: 
-  DialogueText: 
-  Choices: []
+  NodeId: testing_03_no
+  LocationName: Starting Room
+  SpeakerName: Nate
+  DialogueText: '"Oh okay."'
+  Choices:
+  - ChoiceText: '[Wander off]'
+    NextNodeId: testing_06_wandering
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - Poor

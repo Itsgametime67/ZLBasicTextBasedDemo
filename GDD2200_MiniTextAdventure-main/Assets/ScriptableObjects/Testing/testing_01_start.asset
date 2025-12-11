@@ -18,13 +18,13 @@ MonoBehaviour:
   DialogueText: '"Oh hello. Could you please say 1 for me."'
   Choices:
   - ChoiceText: '["1"]'
-    NextNodeId: 
+    NextNodeId: testing_02_say1
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '["No"]'
-    NextNodeId: 
+    NextNodeId: testing_03_no
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

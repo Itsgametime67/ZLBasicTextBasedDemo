@@ -29,6 +29,8 @@ public class DialogueUI : MonoBehaviour
         SpeakerTextDisplay.text = speaker;
         DialogueTextDisplay.text = dialogue;
 
+        Debug.Log($"Location: {LocationTextDisplay.text}, Speaker: {SpeakerTextDisplay} ");
+
         for (int i = 0; i < Buttons.Count; i++)
         {
             if (i < choices.Count)

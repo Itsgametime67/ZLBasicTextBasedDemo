@@ -18,7 +18,7 @@ MonoBehaviour:
   DialogueText: '"Oh thanks, have 1000 gold."'
   Choices:
   - ChoiceText: '["Yippie"]'
-    NextNodeId: 
+    NextNodeId: testing_06_wandering
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
