@@ -10,15 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_08_goodEnding
+  m_Name: testing_04_restart
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_08_goodEnding
-  SpeakerName: Old Man
-  DialogueText: '"Ah! Thank you kind traveler.  I shall grant you immortality!"'
-  Choices:
-  - ChoiceText: '[PLAY AGAIN]'
-    NextNodeId: 
-    ReloadScene: 1
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
+  NodeId: 
+  LocationName: 
+  SpeakerName: 
+  DialogueText: 
+  Choices: []

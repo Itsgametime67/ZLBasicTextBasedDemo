@@ -10,15 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_03_rejected
+  m_Name: testing_03_no
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_03_rejected
-  SpeakerName: Old Man
-  DialogueText: '"I see. Maybe another time."'
-  Choices:
-  - ChoiceText: '[LEAVE]'
-    NextNodeId: oldMan_05_continueJourney
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
+  NodeId: 
+  LocationName: 
+  SpeakerName: 
+  DialogueText: 
+  Choices: []

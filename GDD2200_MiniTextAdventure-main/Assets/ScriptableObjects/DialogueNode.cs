@@ -7,7 +7,8 @@ public class DialogueNode : ScriptableObject
     [Header("Identity")] 
     public string NodeId;  // speaker_01_descriptor
 
-    [Header("Dialogue")] 
+    [Header("Dialogue")]
+    public string LocationName;
     public string SpeakerName;
     [TextArea(2, 5)] 
     public string DialogueText;

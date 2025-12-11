@@ -10,23 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_02_accepted
+  m_Name: testing_01_start
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_02_accepted
-  SpeakerName: Old Man
-  DialogueText: '"Thank you! I think I lost it near the old well."'
+  NodeId: testing_01_start
+  LocationName: Starting Room
+  SpeakerName: Nate
+  DialogueText: '"Oh hello. Could you please say 1 for me."'
   Choices:
-  - ChoiceText: '[GO TO OLD WELL]'
-    NextNodeId: oldMan_04_theWell
+  - ChoiceText: '["1"]'
+    NextNodeId: 
     ReloadScene: 0
-    RequiredFlags:
-    - accepted_oldManQuest
+    RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
-  - ChoiceText: '[LEAVE]'
-    NextNodeId: oldMan_05_continueJourney
+  - ChoiceText: '["No"]'
+    NextNodeId: 
     ReloadScene: 0
-    RequiredFlags:
-    - accepted_oldManQuest
+    RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []

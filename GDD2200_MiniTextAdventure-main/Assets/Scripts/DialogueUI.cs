@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class DialogueUI : MonoBehaviour
 {
     public DialogueManager DM;
+    public TextMeshProUGUI LocationTextDisplay;
     public TextMeshProUGUI SpeakerTextDisplay;
     public TextMeshProUGUI DialogueTextDisplay;
     public List<Button> Buttons;
@@ -22,8 +23,9 @@ public class DialogueUI : MonoBehaviour
         DM.OnDialogueUpdated -= UpdateUI;
     }
     
-    private void UpdateUI(string speaker, string dialogue, List<DialogueChoice> choices)
+    private void UpdateUI(string speaker, string location, string dialogue, List<DialogueChoice> choices)
     {
+        LocationTextDisplay.text = location;
         SpeakerTextDisplay.text = speaker;
         DialogueTextDisplay.text = dialogue;
 

@@ -10,19 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_06_findRing
+  m_Name: testing_02_say1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_06_findRing
-  SpeakerName: '[Item Found!]'
-  DialogueText: You find a peculiar looking ring that has a black gem with swirling
-    white mist inside.  The MYSTERIOUS RING was added to your inventory.
+  NodeId: testing_02_say1
+  LocationName: Starting Room
+  SpeakerName: Nate
+  DialogueText: '"Oh thanks, have 1000 gold."'
   Choices:
-  - ChoiceText: '[Return to Old Man]'
-    NextNodeId: oldMan_07_oldManReprise
+  - ChoiceText: '["Yippie"]'
+    NextNodeId: 
     ReloadScene: 0
-    RequiredFlags:
-    - accepted_oldManQuest
-    - itemObtained_oldMansRing
+    RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags:
-    - 
+    - Rich
