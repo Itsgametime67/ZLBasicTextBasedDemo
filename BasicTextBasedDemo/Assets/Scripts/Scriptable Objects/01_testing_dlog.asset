@@ -24,7 +24,7 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlag: []
   - ChoiceText: '"No"'
-    NextNodeID: 02_Testing_01_Nope
+    NextNodeID: 02_testing_01_Nope
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

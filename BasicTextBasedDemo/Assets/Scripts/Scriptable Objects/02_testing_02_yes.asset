@@ -18,7 +18,7 @@ MonoBehaviour:
   DialogueText: '"Oh thank you kindly, have a thousand gold pieces".'
   Choices:
   - ChoiceText: '["Yippie"]'
-    NextNodeID: 
+    NextNodeID: 03_testing_Restart
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

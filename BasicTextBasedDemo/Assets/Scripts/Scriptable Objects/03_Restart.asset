@@ -19,7 +19,7 @@ MonoBehaviour:
   Choices:
   - ChoiceText: '[Restart]'
     NextNodeID: 01_testing
-    ReloadScene: 0
+    ReloadScene: 1
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlag: []
