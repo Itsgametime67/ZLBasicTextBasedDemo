@@ -7,6 +7,7 @@ public class PlayerData
     public List<string> PlayerFlags = new();
 
     public string PlayerCurrentNodeId;
+    public string PlayerCurrentQuest;
 
 
 }

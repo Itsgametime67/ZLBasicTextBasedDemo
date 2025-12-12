@@ -10,22 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: testing_01_start
+  m_Name: 01_Forest01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: testing_01_start
-  LocationName: Starting Room
-  SpeakerName: Nate
-  DialogueText: '"Oh hello. Could you please say 1 for me."'
+  NodeId: 01_Forest01
+  LocationName: Old Road
+  SpeakerName: Narrator
+  DialogueText: '"You decided to move deeper into the forest. The canopy of the forest
+    becomes thicker as you progress. You hear the sounds of animals as they move
+    around you."'
   Choices:
-  - ChoiceText: '["1"]'
-    NextNodeId: testing_02_say1
+  - ChoiceText: '[Continue Down the Road]'
+    NextNodeId: 01_Forest02
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
-    GrantQuest: Accepted Old Man's Quest
-  - ChoiceText: '["No"]'
-    NextNodeId: testing_03_no
+    GrantQuest: 
+  - ChoiceText: '[Go Off the Road]'
+    NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

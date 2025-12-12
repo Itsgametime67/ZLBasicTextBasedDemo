@@ -14,7 +14,9 @@ public class FlagManager : MonoBehaviour
     public void AddFlag(string flag)
     {
         if (string.IsNullOrEmpty(flag)) return;
+
+
         _flags.Add(flag);
-        player.Flags.Add(flag);
+        player.FlagList.Add(flag);
     }
 }

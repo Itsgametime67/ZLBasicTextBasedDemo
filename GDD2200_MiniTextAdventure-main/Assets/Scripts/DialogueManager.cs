@@ -6,8 +6,12 @@ public class DialogueManager : MonoBehaviour
 {
     [Header("Data")] 
     public DialogueDatabase Database;
-    public FlagManager FlagManager;
-    
+
+    [Header("UI Sections")]
+    [SerializeField] private GameObject _gameplayUI;
+    [SerializeField] private GameObject _questUI;
+
+    private bool showingQuests = false;
 
     public Player player;
 
@@ -18,7 +22,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {               
-            GoToNode(player.CurrentNodeId);
+        GoToNode(player.CurrentNodeId);
     }
 
     private void ReloadScene()
@@ -31,12 +35,12 @@ public class DialogueManager : MonoBehaviour
     {
         foreach (var required in choice.RequiredFlags)
         {
-            if (!FlagManager.HasFlag(required)) return false;
+            if (!player.HasFlag(required)) return false;
         }
 
         foreach (var forbidden in choice.ForbiddenFlags)
         {
-            if (FlagManager.HasFlag(forbidden)) return false;
+            if (player.HasFlag(forbidden)) return false;
         }
         
         return true;
@@ -64,7 +68,12 @@ public class DialogueManager : MonoBehaviour
 
         foreach (var flag in choice.GrantFlags)
         {
-            FlagManager.AddFlag(flag);
+            player.AddFlag(flag);
+        }
+
+        if (choice.GrantQuest != "")
+        {
+            player.CurrentQuest = choice.GrantQuest;
         }
 
         if (choice.ReloadScene)
@@ -90,6 +99,27 @@ public class DialogueManager : MonoBehaviour
         var filtered = FilterChoices(_currentDialogueNode.Choices);
         {
             OnDialogueUpdated?.Invoke(_currentDialogueNode.SpeakerName, _currentDialogueNode.LocationName, _currentDialogueNode.DialogueText, filtered);
+        }
+
+        if(showingQuests == true) // if the quest menu is open, close it after moving to whichever node.
+        {
+            ShowQuestUI();
+        }
+    }
+
+    public void ShowQuestUI()
+    {
+        if (showingQuests == false)
+        {
+            _questUI.SetActive(true);
+            _gameplayUI.SetActive(false);
+            showingQuests = true;
+        }
+        else
+        {
+            _questUI.SetActive(false);
+            _gameplayUI.SetActive(true);
+            showingQuests = false;
         }
     }
 }

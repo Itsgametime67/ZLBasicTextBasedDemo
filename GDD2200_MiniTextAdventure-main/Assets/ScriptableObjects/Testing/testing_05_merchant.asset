@@ -25,12 +25,14 @@ MonoBehaviour:
     ForbiddenFlags:
     - Poor
     GrantFlags: []
+    GrantQuest: Complete
   - ChoiceText: '["No thanks."]'
     NextNodeId: testing_04_restart
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
+    GrantQuest: 
   - ChoiceText: '["No thanks, I''m too poor"]'
     NextNodeId: testing_04_restart
     ReloadScene: 0
@@ -39,3 +41,4 @@ MonoBehaviour:
     ForbiddenFlags:
     - Rich
     GrantFlags: []
+    GrantQuest: 

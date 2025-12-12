@@ -33,4 +33,7 @@ public class DialogueChoice
     
     [Header("Flags On Select")]
     public List<string> GrantFlags = new();
+
+    [Header("Quests On Select")]
+    public string GrantQuest;
 }
