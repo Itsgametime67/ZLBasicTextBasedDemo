@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 01_Forest03
+  m_Name: 02_Lakeside01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 01_Forest03
+  NodeId: 02_Lakeside01
   LocationName: Old Road
   SpeakerName: Narrator
-  DialogueText: 
+  DialogueText: '"You decided to head towards the mountains. The road quickly narrows
+    to a short path that follows a river stream. Moving up the mointain you see a
+    castle nested further up the path."'
   Choices: []

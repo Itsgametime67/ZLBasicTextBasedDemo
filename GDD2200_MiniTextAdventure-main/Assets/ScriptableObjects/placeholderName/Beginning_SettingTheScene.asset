@@ -16,29 +16,22 @@ MonoBehaviour:
   LocationName: Old Road
   SpeakerName: Narrator
   DialogueText: '"You are walking along an old dirt road in the land of Valace. You''re
-    a new adeventurer who is seeking a quest for glory and riches. In front of you
-    the path begins to split in opposite directions, but the road sign is misplaced.
+    a  adventurer who is returning home for a quest. In front of you the path begins
+    to split in opposite directions and you don''t remember which path leads home.
     One path goes deeper into the forest and the other appears to approach a mountain
-    range. Which path will you take?"'
+    range. You think that the mountain path is correct. Which path will you take?"'
   Choices:
   - ChoiceText: '[Go Deeper Into the Forest]'
-    NextNodeId: 
+    NextNodeId: 01_Forest01
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
-    GrantQuest: Search for A Quest
+    GrantQuest: Return Home
   - ChoiceText: '[Go Towards the Mountains]'
     NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
-    GrantQuest: Search for A Quest
-  - ChoiceText: '[Make Your Own Path]'
-    NextNodeId: 
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: Search for A Quest
+    GrantQuest: Return Home

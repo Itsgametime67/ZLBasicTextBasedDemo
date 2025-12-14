@@ -10,25 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 01_Forest02
+  m_Name: 04_RobcoFact01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 01_Forest02
-  LocationName: Old Road
+  NodeId: 04_RobcoFact01
+  LocationName: Robco Robotics
   SpeakerName: Narrator
-  DialogueText: '"You continue down the old road. You eventually reach a small break
-    in the forest where the path starts to head upwards."'
+  DialogueText: You finally enter the Robco factory which means you can get started
+    on locating the Mr Handy blueprint. Entering the building you see the usual rubble
+    and remnants of the old world. You see a door leading to the factory floor, and
+    another door leading upstairs. Where do you explore?
   Choices:
-  - ChoiceText: '[Continue Down the Old Road]'
+  - ChoiceText: '[Explore the Factory Floor]'
     NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
-    GrantQuest: 
-  - ChoiceText: '[Move towards the secret entrance]'
+    GrantQuest: Find the Mr Handy Blueprint
+  - ChoiceText: '[Explore Upstairs]'
     NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
-    GrantQuest: 
+    GrantQuest: Find the Mr Handy Blueprint

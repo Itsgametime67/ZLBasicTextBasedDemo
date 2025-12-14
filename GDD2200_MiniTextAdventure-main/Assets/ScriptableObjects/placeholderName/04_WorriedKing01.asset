@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 01_Forest03
+  m_Name: 04_WorriedKing01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 01_Forest03
-  LocationName: Old Road
-  SpeakerName: Narrator
-  DialogueText: 
+  NodeId: 04_WorriedKing01
+  LocationName: Castle Peak
+  SpeakerName: King Einsburg
+  DialogueText: '"Greetings adventurer'
   Choices: []

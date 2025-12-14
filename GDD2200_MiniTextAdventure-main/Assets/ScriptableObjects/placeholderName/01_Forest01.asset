@@ -15,19 +15,12 @@ MonoBehaviour:
   NodeId: 01_Forest01
   LocationName: Old Road
   SpeakerName: Narrator
-  DialogueText: '"You decided to move deeper into the forest. The canopy of the forest
+  DialogueText: '"You decided to move deeper into the forest. The canopy overhead
     becomes thicker as you progress. You hear the sounds of animals as they move
-    around you."'
+    around you. You see a clearing coming up on the path."'
   Choices:
   - ChoiceText: '[Continue Down the Road]'
     NextNodeId: 01_Forest02
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: 
-  - ChoiceText: '[Go Off the Road]'
-    NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

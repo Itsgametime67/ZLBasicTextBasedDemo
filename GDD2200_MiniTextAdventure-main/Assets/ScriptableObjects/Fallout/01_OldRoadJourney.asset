@@ -10,22 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 01_Forest02
+  m_Name: 01_OldRoadJourney
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 01_Forest02
+  NodeId: 01_OldRoadJourney
   LocationName: Old Road
   SpeakerName: Narrator
-  DialogueText: '"You continue down the old road. You eventually reach a small break
-    in the forest where the path starts to head upwards."'
+  DialogueText: You take your gear and head off for the factory. You know that the
+    Robco factory is north of Side-Water but you're not sure the best route. You
+    could take a shorter route that goes through the abandoned town of Laughlin,
+    or take a longer route that goes around the town.
   Choices:
-  - ChoiceText: '[Continue Down the Old Road]'
+  - ChoiceText: '[Go Through the Town]'
     NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
-  - ChoiceText: '[Move towards the secret entrance]'
+  - ChoiceText: '[Go Around the Town]'
     NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
