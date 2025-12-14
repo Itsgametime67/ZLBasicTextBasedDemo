@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 04_RobcoFact01
+  m_Name: 04_Robco_Lobby01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 04_RobcoFact01
-  LocationName: Robco Robotics
+  NodeId: 04_Robco_Lobby01
+  LocationName: Robco Robotics - Lobby
   SpeakerName: Narrator
   DialogueText: You finally enter the Robco factory which means you can get started
     on locating the Mr Handy blueprint. Entering the building you see the usual rubble
@@ -21,16 +21,18 @@ MonoBehaviour:
     another door leading upstairs. Where do you explore?
   Choices:
   - ChoiceText: '[Explore the Factory Floor]'
-    NextNodeId: 
+    NextNodeId: 04_RobcoFact01
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - Factory
     GrantQuest: Find the Mr Handy Blueprint
   - ChoiceText: '[Explore Upstairs]'
     NextNodeId: 
     ReloadScene: 0
-    RequiredFlags: []
+    RequiredFlags:
+    - Upstairs
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: Find the Mr Handy Blueprint
