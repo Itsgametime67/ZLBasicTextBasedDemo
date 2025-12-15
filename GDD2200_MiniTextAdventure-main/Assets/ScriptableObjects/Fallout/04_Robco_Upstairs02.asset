@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 04_Robco_Fact02
+  m_Name: 04_Robco_Upstairs02
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 04_Robco_Fact02
-  LocationName: Robco Robotics - Factory Floor
+  NodeId: 04_Robco_Upstairs02
+  LocationName: Robco Robotics - Upstairs
   SpeakerName: Narrator
-  DialogueText: You inspect the control terminal, thinking it might provide some
-    clue on the whereabouts of the blueprint. Reading through the old messages from
-    someone named David on the terminal, you learn that the Mr Handy blueprint has
-    been moved to the second floor.
+  DialogueText: You inspect the door. The door wont open and it appears to be mechanically
+    locked.
   Choices:
   - ChoiceText: '[Go Back]'
-    NextNodeId: 04_Robco_Fact04
+    NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

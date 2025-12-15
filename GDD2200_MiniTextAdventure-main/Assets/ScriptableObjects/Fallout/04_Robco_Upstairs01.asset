@@ -21,8 +21,8 @@ MonoBehaviour:
     of the rubble lies a deactivated robot. In the opposite corner of the room is
     a closed door.
   Choices:
-  - ChoiceText: '[Continue]'
-    NextNodeId: 
+  - ChoiceText: '[Inspect the Door]'
+    NextNodeId: 04_Robco_Upstairs02
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
