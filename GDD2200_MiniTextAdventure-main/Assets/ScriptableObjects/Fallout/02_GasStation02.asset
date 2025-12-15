@@ -10,25 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 04_Robco_Fact04
+  m_Name: 02_GasStation02
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 04_Robco_Fact04
-  LocationName: RobCo Robotics - Factory Floor
+  NodeId: 02_GasStation02
+  LocationName: Red Rocket Gas Station
   SpeakerName: Narrator
-  DialogueText: You're in the factory floor. Where will you go?
+  DialogueText: 'You decided to take some time to pick over the Red Rocket stop.
+    Its a relatively large gas station, with enough room to fit three large cargo
+    trucks at the same time. The inside of the building itself is relatively small,
+    only having a room to hold a variety of merchandise and a small employee room
+    in the back. '
   Choices:
-  - ChoiceText: '[Go back to the lobby]'
-    NextNodeId: 04_Robco_Lobby02
+  - ChoiceText: '[CONTINUE]'
+    NextNodeId: 02_GasStation04
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: 
-  - ChoiceText: '[Go to the side rooms]'
-    NextNodeId: 04_Robco_Fact03
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags:
-    - Scrap1
     GrantFlags: []
     GrantQuest: 

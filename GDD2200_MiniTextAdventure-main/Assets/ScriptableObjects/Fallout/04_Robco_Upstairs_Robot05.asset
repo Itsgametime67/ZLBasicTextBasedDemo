@@ -10,25 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 04_Robco_Fact04
+  m_Name: 04_Robco_Upstairs_Robot05
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 04_Robco_Fact04
-  LocationName: RobCo Robotics - Factory Floor
-  SpeakerName: Narrator
-  DialogueText: You're in the factory floor. Where will you go?
+  NodeId: 04_Robco_Upstairs_Robot05
+  LocationName: RobCo Robotics - Upstairs
+  SpeakerName: Mr Helpful
+  DialogueText: '"ERROR ERROR. Incorrect information. Please C- Contact Local technician.
+    Code 15OF."'
   Choices:
-  - ChoiceText: '[Go back to the lobby]'
-    NextNodeId: 04_Robco_Lobby02
+  - ChoiceText: '[Go Back]'
+    NextNodeId: 04_Robco_Upstairs03
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: 
-  - ChoiceText: '[Go to the side rooms]'
-    NextNodeId: 04_Robco_Fact03
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags:
-    - Scrap1
     GrantFlags: []
     GrantQuest: 

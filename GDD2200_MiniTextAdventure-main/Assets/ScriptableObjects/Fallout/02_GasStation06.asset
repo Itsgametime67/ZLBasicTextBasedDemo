@@ -10,36 +10,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: testing_01_start
+  m_Name: 02_GasStation06
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: testing_01_start
-  LocationName: Starting Room
-  SpeakerName: Nate
-  DialogueText: '"Oh hello. Could you please say 1 for me."'
+  NodeId: 02_GasStation06
+  LocationName: Red Rocket Gas Station
+  SpeakerName: Narrator
+  DialogueText: 'Where should you check? '
   Choices:
-  - ChoiceText: '["1"]'
-    NextNodeId: testing_02_say1
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: Accepted Old Man's Quest
-  - ChoiceText: '["No"]'
-    NextNodeId: testing_03_no
+  - ChoiceText: '[Check the Enployee Room]'
+    NextNodeId: 02_GasStation08
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
-  - ChoiceText: '["No"]'
-    NextNodeId: testing_03_no
+  - ChoiceText: '[Check around the Outside]'
+    NextNodeId: 02_GasStation07
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
+    ForbiddenFlags:
+    - NotOutside
+    GrantFlags:
+    - NotOutside
     GrantQuest: 
-  - ChoiceText: '["No"]'
-    NextNodeId: testing_03_no
+  - ChoiceText: '[Try to Force Your Way In]'
+    NextNodeId: 02_GasStation07
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags:
+    - NotForce
+    GrantFlags:
+    - NotForce
+    GrantQuest: 
+  - ChoiceText: '[Go Back]'
+    NextNodeId: 02_GasStation03
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

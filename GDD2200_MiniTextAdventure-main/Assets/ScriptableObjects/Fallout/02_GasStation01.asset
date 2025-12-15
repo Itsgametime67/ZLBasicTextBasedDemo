@@ -10,25 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 04_Robco_Fact04
+  m_Name: 02_GasStation01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 04_Robco_Fact04
-  LocationName: RobCo Robotics - Factory Floor
+  NodeId: 02_GasStation01
+  LocationName: Red Rocket Gas Station
   SpeakerName: Narrator
-  DialogueText: You're in the factory floor. Where will you go?
+  DialogueText: You decided to go around the town of Laughlin. Traveling around the
+    town might have been a good idea but it also caused your trip to be relatively
+    boring. You're getting closer to the RobCo Factory, but theres also a Red Rocket
+    gas station right along the side of the road that you could inspect. What will
+    you do?
   Choices:
-  - ChoiceText: '[Go back to the lobby]'
-    NextNodeId: 04_Robco_Lobby02
+  - ChoiceText: '[Check out the Gas Station]'
+    NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
-  - ChoiceText: '[Go to the side rooms]'
-    NextNodeId: 04_Robco_Fact03
+  - ChoiceText: '[Continue to the RobCo Factory]'
+    NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags:
-    - Scrap1
+    ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 

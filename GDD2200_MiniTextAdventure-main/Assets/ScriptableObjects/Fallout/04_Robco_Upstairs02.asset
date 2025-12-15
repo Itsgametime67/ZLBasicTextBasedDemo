@@ -13,15 +13,23 @@ MonoBehaviour:
   m_Name: 04_Robco_Upstairs02
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: 04_Robco_Upstairs02
-  LocationName: Robco Robotics - Upstairs
+  LocationName: RobCo Robotics - Upstairs
   SpeakerName: Narrator
-  DialogueText: You inspect the door. The door wont open and it appears to be mechanically
-    locked.
+  DialogueText: You inspect the door. The door appears to be fully operational but
+    is locked.
   Choices:
   - ChoiceText: '[Go Back]'
-    NextNodeId: 
+    NextNodeId: 04_Robco_Upstairs03
     ReloadScene: 0
     RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Lockpick the Door]'
+    NextNodeId: 04_Robco_Upstairs_unlock
+    ReloadScene: 0
+    RequiredFlags:
+    - Lockpicks
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 

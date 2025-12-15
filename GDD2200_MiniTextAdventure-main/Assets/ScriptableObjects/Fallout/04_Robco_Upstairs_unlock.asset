@@ -10,25 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 04_Robco_Fact04
+  m_Name: 04_Robco_Upstairs_unlock
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 04_Robco_Fact04
-  LocationName: RobCo Robotics - Factory Floor
+  NodeId: 04_Robco_Upstairs_unlock
+  LocationName: RobCo Robotics - Upstairs
   SpeakerName: Narrator
-  DialogueText: You're in the factory floor. Where will you go?
+  DialogueText: You get closer to the door, but then you realize that the door doesn't
+    have any locks to be picked. The door is mechanically shut and will have to be
+    opened another way.
   Choices:
-  - ChoiceText: '[Go back to the lobby]'
-    NextNodeId: 04_Robco_Lobby02
+  - ChoiceText: '[Go Back]'
+    NextNodeId: 04_Robco_Upstairs03
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: 
-  - ChoiceText: '[Go to the side rooms]'
-    NextNodeId: 04_Robco_Fact03
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags:
-    - Scrap1
     GrantFlags: []
     GrantQuest: 

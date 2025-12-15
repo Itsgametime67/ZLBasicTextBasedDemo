@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: 05_EmpSec01
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: 05_EmpSec01
+  LocationName: RobCo Robotics - Employee Section
+  SpeakerName: Narrator
+  DialogueText: You walk into the employee section of the building. The place is
+    filled with cubiles filled with ruined computers. Papers from old reports litter
+    the floor. As you look around, you see the Mr Handy blueprint through a window
+    looking into the senior manager's office. The last obstacle, how will you get
+    inside?
+  Choices:
+  - ChoiceText: '[Lockpick the Door]'
+    NextNodeId: 05_EmpSec03
+    ReloadScene: 0
+    RequiredFlags:
+    - Lockpicks
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Shoot the Glass]'
+    NextNodeId: 05_EmpSec03
+    ReloadScene: 0
+    RequiredFlags:
+    - Gun
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Use Explosives]'
+    NextNodeId: 05_EmpSec03
+    ReloadScene: 0
+    RequiredFlags:
+    - Explosives
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Try Opening the Door]'
+    NextNodeId: 05_EmpSec02
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 

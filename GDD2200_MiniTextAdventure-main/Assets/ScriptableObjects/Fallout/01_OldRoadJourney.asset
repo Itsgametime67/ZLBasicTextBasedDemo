@@ -28,7 +28,7 @@ MonoBehaviour:
     GrantFlags: []
     GrantQuest: 
   - ChoiceText: '[Go Around the Town]'
-    NextNodeId: 
+    NextNodeId: 02_GasStation01
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

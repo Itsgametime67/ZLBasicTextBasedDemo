@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 04_Robco_Lobby02
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: 04_Robco_Lobby02
-  LocationName: Robco Robotics - Lobby
+  LocationName: RobCo Robotics - Lobby
   SpeakerName: Narrator
   DialogueText: You go back to the lobby, where should you go?
   Choices:

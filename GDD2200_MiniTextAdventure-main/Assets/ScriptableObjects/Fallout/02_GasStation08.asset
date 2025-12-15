@@ -10,25 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: 04_Robco_Fact04
+  m_Name: 02_GasStation08
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: 04_Robco_Fact04
-  LocationName: RobCo Robotics - Factory Floor
+  NodeId: 02_GasStation08
+  LocationName: Red Rocket Gas Station
   SpeakerName: Narrator
-  DialogueText: You're in the factory floor. Where will you go?
+  DialogueText: Inside the employee room you notice a hole that leads into the freezer
+    section. You think you could squeeze through if you tried. You also notice how
+    much time has passed, maybe you should start heading towards the RobCo factory,
   Choices:
-  - ChoiceText: '[Go back to the lobby]'
-    NextNodeId: 04_Robco_Lobby02
+  - ChoiceText: '[Squeeze Inside]'
+    NextNodeId: 02_GasStation05
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
-  - ChoiceText: '[Go to the side rooms]'
-    NextNodeId: 04_Robco_Fact03
+  - ChoiceText: '[Go Back]'
+    NextNodeId: 02_GasStation03
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags:
-    - Scrap1
+    ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 

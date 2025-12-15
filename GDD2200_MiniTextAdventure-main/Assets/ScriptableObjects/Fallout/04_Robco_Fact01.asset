@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 04_Robco_Fact01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: 04_Robco_Fact01
-  LocationName: Robco Robotics - Factory Floor
+  LocationName: RobCo Robotics - Factory Floor
   SpeakerName: Narrator
   DialogueText: You enter the factory floor. Asembly lines and ruined machinery litter
     the room. In the center of the room lies a control terminal. There are also a

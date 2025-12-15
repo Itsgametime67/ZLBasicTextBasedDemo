@@ -28,13 +28,13 @@ MonoBehaviour:
     GrantFlags:
     - Gun
     GrantQuest: Find Mr Handy Blueprints
-  - ChoiceText: '[Bring Booze]'
+  - ChoiceText: '[Bring Lockpicks]'
     NextNodeId: 
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags:
-    - Booze
+    - Lockpicks
     GrantQuest: Find Mr Handy Blueprints
   - ChoiceText: '[Bring Explosives]'
     NextNodeId: 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 04_Robco_Lobby01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: 04_Robco_Lobby01
-  LocationName: Robco Robotics - Lobby
+  LocationName: RobCo Robotics - Lobby
   SpeakerName: Narrator
   DialogueText: You finally enter the Robco factory which means you can get started
     on locating the Mr Handy blueprint. Entering the building you see the usual rubble

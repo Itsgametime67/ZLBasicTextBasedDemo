@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: 04_Robco_Upstairs_Robot02
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: 04_Robco_Upstairs_Robot02
+  LocationName: RobCo Robotics - Upstairs
+  SpeakerName: Mr Helpful
+  DialogueText: '"Greetings -v -valued Robco employee. I''m M- Mr Helpful. Please
+    state your name to clock in. "'
+  Choices:
+  - ChoiceText: '["David"]'
+    NextNodeId: 04_Robco_Upstairs_Robot03
+    ReloadScene: 0
+    RequiredFlags:
+    - PE_David
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '["Stacy"]'
+    NextNodeId: 04_Robco_Upstairs_Robot05
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '["John"]'
+    NextNodeId: 04_Robco_Upstairs_Robot05
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '["Peter"]'
+    NextNodeId: 04_Robco_Upstairs_Robot05
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags:
+    - PE_David
+    - PE_Grace
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '["Grace"]'
+    NextNodeId: 04_Robco_Upstairs_Robot03
+    ReloadScene: 0
+    RequiredFlags:
+    - PE_Grace
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
