@@ -45,10 +45,3 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
-  - ChoiceText: '[Try Opening the Door]'
-    NextNodeId: 05_EmpSec02
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: 

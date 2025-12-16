@@ -18,10 +18,63 @@ MonoBehaviour:
   DialogueText: You decided to break in to the managers office. Now sitting before
     you on a desk lies the Mr Handy blueprints.
   Choices:
-  - ChoiceText: '[Collect the Blueprints]'
-    NextNodeId: 
+  - ChoiceText: '[Collect The Blueprints and Leave]'
+    NextNodeId: End_01
     ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
+    RequiredFlags:
+    - Scrap1
+    ForbiddenFlags:
+    - Laugh
+    - Scrap2
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Collect The Blueprints and Leave]'
+    NextNodeId: End_01P
+    ReloadScene: 0
+    RequiredFlags:
+    - Scrap1
+    - Scrap2
+    ForbiddenFlags:
+    - Laugh
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Collect The Blueprints and Leave]'
+    NextNodeId: End_02
+    ReloadScene: 0
+    RequiredFlags:
+    - Scrap1
+    ForbiddenFlags:
+    - Gas
+    - Scrap2
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Collect The Blueprints and Leave]'
+    NextNodeId: End_02P
+    ReloadScene: 0
+    RequiredFlags:
+    - Scrap1
+    - Scrap2
+    ForbiddenFlags:
+    - Gas
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Collect The Blueprints and Leave]'
+    NextNodeId: End_02
+    ReloadScene: 0
+    RequiredFlags:
+    - Scrap2
+    ForbiddenFlags:
+    - Gas
+    - Scrap1
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Collect The Blueprints and Leave]'
+    NextNodeId: End_02
+    ReloadScene: 0
+    RequiredFlags:
+    - Scrap2
+    ForbiddenFlags:
+    - Laugh
+    - Scrap1
     GrantFlags: []
     GrantQuest: 

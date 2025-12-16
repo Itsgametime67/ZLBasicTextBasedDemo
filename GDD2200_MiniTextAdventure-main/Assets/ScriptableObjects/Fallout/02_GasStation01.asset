@@ -22,14 +22,14 @@ MonoBehaviour:
     you do?
   Choices:
   - ChoiceText: '[Check out the Gas Station]'
-    NextNodeId: 
+    NextNodeId: 02_GasStation02
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
   - ChoiceText: '[Continue to the RobCo Factory]'
-    NextNodeId: 
+    NextNodeId: 04_Outside
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

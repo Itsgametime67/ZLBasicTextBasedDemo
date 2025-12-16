@@ -21,26 +21,26 @@ MonoBehaviour:
     You will bring basic supplies, but what else should you bring?
   Choices:
   - ChoiceText: '[Bring A Gun]'
-    NextNodeId: 
+    NextNodeId: 01_OldRoadJourney
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags:
     - Gun
-    GrantQuest: Find Mr Handy Blueprints
+    GrantQuest: Reach the Factory
   - ChoiceText: '[Bring Lockpicks]'
-    NextNodeId: 
+    NextNodeId: 01_OldRoadJourney
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags:
     - Lockpicks
-    GrantQuest: Find Mr Handy Blueprints
+    GrantQuest: Reach the Factory
   - ChoiceText: '[Bring Explosives]'
-    NextNodeId: 
+    NextNodeId: 01_OldRoadJourney
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags:
     - Explosives
-    GrantQuest: Find Mr Handy Blueprints
+    GrantQuest: Reach the Factory

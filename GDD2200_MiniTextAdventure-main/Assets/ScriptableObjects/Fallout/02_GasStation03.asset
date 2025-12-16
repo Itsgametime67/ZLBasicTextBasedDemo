@@ -19,7 +19,14 @@ MonoBehaviour:
     go back inside or move on towards the RobCo factory.
   Choices:
   - ChoiceText: '[Go to the RobCo Factory]'
-    NextNodeId: 
+    NextNodeId: 04_Outside
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Go Back and search for a way in]'
+    NextNodeId: 02_GasStation06
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

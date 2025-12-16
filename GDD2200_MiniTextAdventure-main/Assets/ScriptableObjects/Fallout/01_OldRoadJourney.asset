@@ -17,20 +17,22 @@ MonoBehaviour:
   SpeakerName: Narrator
   DialogueText: You take your gear and head off for the factory. You know that the
     Robco factory is north of Side-Water but you're not sure the best route. You
-    could take a shorter route that goes through the abandoned town of Laughlin,
-    or take a longer route that goes around the town.
+    could take a shorter, albeit more dangerous route that goes through the abandoned
+    town of Laughlin, or take a longer route that goes around the town.
   Choices:
   - ChoiceText: '[Go Through the Town]'
-    NextNodeId: 
+    NextNodeId: 03_Laugh01
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - Laugh
     GrantQuest: 
   - ChoiceText: '[Go Around the Town]'
     NextNodeId: 02_GasStation01
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - Gas
     GrantQuest: 

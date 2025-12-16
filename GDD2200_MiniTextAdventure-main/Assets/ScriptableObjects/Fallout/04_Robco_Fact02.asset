@@ -25,5 +25,6 @@ MonoBehaviour:
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - PE_David
     GrantQuest: 

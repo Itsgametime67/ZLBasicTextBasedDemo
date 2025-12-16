@@ -21,7 +21,7 @@ MonoBehaviour:
     another door leading upstairs. Where do you explore?
   Choices:
   - ChoiceText: '[Explore the Factory Floor]'
-    NextNodeId: 04_RobcoFact01
+    NextNodeId: 04_Robco_Fact01
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
@@ -29,10 +29,10 @@ MonoBehaviour:
     - Factory
     GrantQuest: Find the Mr Handy Blueprint
   - ChoiceText: '[Explore Upstairs]'
-    NextNodeId: 
+    NextNodeId: 04_Robco_Upstairs01
     ReloadScene: 0
-    RequiredFlags:
-    - Upstairs
+    RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - Upstairs
     GrantQuest: Find the Mr Handy Blueprint

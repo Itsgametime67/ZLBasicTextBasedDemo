@@ -23,7 +23,8 @@ MonoBehaviour:
     RequiredFlags: []
     ForbiddenFlags:
     - Factory
-    GrantFlags: []
+    GrantFlags:
+    - Factory
     GrantQuest: 
   - ChoiceText: '[Go to the factory floor]'
     NextNodeId: 04_Robco_Fact04
@@ -34,15 +35,16 @@ MonoBehaviour:
     GrantFlags: []
     GrantQuest: 
   - ChoiceText: '[Go upstairs]'
-    NextNodeId: 
+    NextNodeId: 04_Robco_Upstairs01
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags:
     - Upstairs
-    GrantFlags: []
+    GrantFlags:
+    - Upstairs
     GrantQuest: 
   - ChoiceText: '[Go upstairs]'
-    NextNodeId: 
+    NextNodeId: 04_Robco_Upstairs03
     ReloadScene: 0
     RequiredFlags:
     - Upstairs

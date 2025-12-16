@@ -21,7 +21,7 @@ MonoBehaviour:
     food and drinks in this second, as well as some useful scrap to collect.
   Choices:
   - ChoiceText: '[Take the Stuff and Leave]'
-    NextNodeId: 02_GasStation03
+    NextNodeId: 04_Outside
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: End_01P
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: End_01P
+  LocationName: 
+  SpeakerName: Narrator
+  DialogueText: You collect the blueprint and travel back to Side-Water. When you
+    get there, you give the blueprint and scrap to Corval, officially marking the
+    end of your quest. You decide to travel around Laughlin and searched hard to
+    find enough scrap to give to Corval. You got a nice bonus for the extra scrap
+    you find. You got a perfect ending.
+  Choices:
+  - ChoiceText: '[Restart?]'
+    NextNodeId: Beginning_intro
+    ReloadScene: 1
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 

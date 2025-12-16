@@ -32,3 +32,10 @@ MonoBehaviour:
     - Scrap1
     GrantFlags: []
     GrantQuest: 
+  - ChoiceText: '[Inspect the Terminal]'
+    NextNodeId: 04_Robco_Fact02
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 

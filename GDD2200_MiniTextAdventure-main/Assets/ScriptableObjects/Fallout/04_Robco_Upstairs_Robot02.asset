@@ -26,13 +26,6 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
-  - ChoiceText: '["Stacy"]'
-    NextNodeId: 04_Robco_Upstairs_Robot05
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: 
   - ChoiceText: '["John"]'
     NextNodeId: 04_Robco_Upstairs_Robot05
     ReloadScene: 0
@@ -44,16 +37,13 @@ MonoBehaviour:
     NextNodeId: 04_Robco_Upstairs_Robot05
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags:
-    - PE_David
-    - PE_Grace
+    ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
   - ChoiceText: '["Grace"]'
-    NextNodeId: 04_Robco_Upstairs_Robot03
+    NextNodeId: 04_Robco_Upstairs_Robot05
     ReloadScene: 0
-    RequiredFlags:
-    - PE_Grace
+    RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 

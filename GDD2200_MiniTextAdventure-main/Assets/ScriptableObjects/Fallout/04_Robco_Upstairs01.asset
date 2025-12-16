@@ -29,9 +29,17 @@ MonoBehaviour:
     GrantFlags: []
     GrantQuest: 
   - ChoiceText: '[Inspect the Robot]'
-    NextNodeId: 04_Robco_Upstairs02
+    NextNodeId: 04_Robco_Upstairs_Robot01
     ReloadScene: 0
     RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Use Explosives to Clear the Rubble]'
+    NextNodeId: 05_EmpSec04
+    ReloadScene: 0
+    RequiredFlags:
+    - Explosives
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 
@@ -39,14 +47,6 @@ MonoBehaviour:
     NextNodeId: 04_Robco_Lobby02
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
-    GrantQuest: 
-  - ChoiceText: '[Use Explosives to Clear the Rubble]'
-    NextNodeId: 04_Robco_Lobby02
-    ReloadScene: 0
-    RequiredFlags:
-    - Explosives
     ForbiddenFlags: []
     GrantFlags: []
     GrantQuest: 

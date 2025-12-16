@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: 03_Laugh02
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: 03_Laugh02
+  LocationName: Laughlin
+  SpeakerName: Narrator
+  DialogueText: 'Moving further into the town, before you can do anything, a bottle
+    is shot next to you as you are ambushed by a group of 4 raiders. Thankfully you
+    have something to cover behind in the form of a ruined car. You can either try
+    to fight or run. '
+  Choices:
+  - ChoiceText: '[Run into a building]'
+    NextNodeId: 03_Laugh04
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Shoot back]'
+    NextNodeId: 03_Laugh03
+    ReloadScene: 0
+    RequiredFlags:
+    - Gun
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Use Explosives]'
+    NextNodeId: 03_Laugh03
+    ReloadScene: 0
+    RequiredFlags:
+    - Explosives
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
+  - ChoiceText: '[Try Surrendering]'
+    NextNodeId: End_Bad
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+    GrantQuest: 
