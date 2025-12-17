@@ -21,7 +21,8 @@ public class DialogueManager : MonoBehaviour
     private DialogueNode _currentDialogueNode;
 
     private void Start()
-    {               
+    {
+        SaveManager.Load();
         GoToNode(player.CurrentNodeId);
     }
 
